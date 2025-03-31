@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitMax</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://via.placeholder.com/1600x900') no-repeat center center fixed;
+            background-size: cover;
+        }
+        header {
+            background: rgba(255, 87, 51, 0.9);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            text-align: center;
+            background: rgba(51, 51, 51, 0.9);
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #ff5733;
+            border-radius: 5px;
+            transform: scale(1.1);
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .article, .testimonials {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        .article:hover, .testimonials:hover {
+            box-shadow: 0px 4px 20px rgba(0,0,0,0.3);
+            transform: translateY(-5px);
+        }
+        .testimonial {
+            background: #eee;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        footer {
+            background: rgba(51, 51, 51, 0.9);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        h2 {
+            transition: transform 0.5s ease-in-out;
+        }
+        h2:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        FitMax
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Rutinas</a>
+        <a href="#">Consejos</a>
+        <a href="#">Blog</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <div class="container">
+        <div class="article">
+            <h2>Rutina de Ejercicio en Casa</h2>
+            <p>Descubre una rutina efectiva para entrenar sin necesidad de equipo.</p>
+            <a href="#">Leer más...</a>
+        </div>
+        <div class="article">
+            <h2>Los Mejores Ejercicios para el Abdomen</h2>
+            <p>Conoce los movimientos más efectivos para tonificar tu core.</p>
+            <a href="#">Leer más...</a>
+        </div>
+        <!-- Nuevo artículo: Rutina para el gimnasio -->
+        <div class="article">
+            <h2>Rutina Completa para el Gimnasio</h2>
+            <p>Aprende una rutina para mejorar tu fuerza y resistencia en el gimnasio, combinando pesas y cardio.</p>
+            <a href="#">Leer más...</a>
+        </div>
+        
+        <div class="testimonials">
+            <h2>Testimonios</h2>
+            <div class="testimonial">
+                <p>\"Gracias a FitMax, logré transformar mi cuerpo en solo 3 meses!\" - Juan P.</p>
+            </div>
+            <div class="testimonial">
+                <p>\"Las rutinas son súper efectivas y fáciles de seguir.\" - Ana M.</p>
+            </div>
+            <div class="testimonial">
+                <p>\"Nunca pensé que podría entrenar desde casa con tan buenos resultados.\" - Carlos R.</p>
+            </div>
+            <div class="testimonial">
+                <p>\"Después de seguir sus consejos, mejoré mi resistencia y fuerza.\" - Laura G.</p>
+            </div>
+            <div class="testimonial">
+                <p>\"FitMax me ayudó a mantenerme motivado y alcanzar mis metas fitness.\" - Diego S.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 FitMax | Todos los derechos reservados.
+    </footer>
+</body>
+</html>
